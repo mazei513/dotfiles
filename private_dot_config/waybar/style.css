@@ -1,0 +1,31 @@
+* {
+  font-family: monospace, sans-serif
+}
+
+window#waybar {
+  background-color: #a89984;
+  color: #3c3836;
+}
+
+.modules-left, .modules-right {
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: #bdae93;
+  padding: 0 4px;
+  margin: 4px;
+}
+
+#workspaces button {
+  margin: 0 4px;
+  padding: 0 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+#workspaces button:hover {
+  background-color: #ebdbb2;
+}
+
+#workspaces button.active {
+  color: #076678;
+}
