@@ -1,0 +1,21 @@
+outputs:
+  - DP-2
+  - DP-3
+appLauncherCmd: "wofi --show drun" 
+clipboardCmd: "alacritty --class clipse -e clipse"
+updates:
+  checkCmd: "yay -Sy; yay -Qu"
+  updateCmd: 'alacritty -e fish -c "yay -Syu" &'
+appearance:
+  backgroundColor: "#fbf1c7"
+  primaryColor: "#458588"
+  secondaryColor: "#d5c4a1"
+  successColor: "#79740e"
+  dangerColor: "#cc241d"
+  textColor: "#3c3836"
+  workspaceColors:
+    - "#d79921"
+    - "#d65d0e"
+  specialWorkspaceColors:
+    - "#b16286"
+    - "#689d6a"
