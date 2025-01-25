@@ -1,21 +1,27 @@
-outputs:
-  - DP-2
-  - DP-3
-appLauncherCmd: "wofi --show drun" 
+outputs: All
+appLauncherCmd: "fuzzel" 
 clipboardCmd: "alacritty --class clipse -e clipse"
-updates:
-  checkCmd: "yay -Sy; yay -Qu"
-  updateCmd: 'alacritty -e fish -c "yay -Syu" &'
+workspaces:
+  visibilityMode: MonitorSpecific
+modules:
+  left:
+    - AppLauncher
+    - Clipboard
+    - Workspaces
+  center:
+    - WindowTitle
+  right:
+    - [Clock, Settings]
 appearance:
-  backgroundColor: "#fbf1c7"
-  primaryColor: "#458588"
-  secondaryColor: "#d5c4a1"
-  successColor: "#79740e"
-  dangerColor: "#cc241d"
-  textColor: "#3c3836"
+  backgroundColor: "#2d353b"
+  primaryColor: "#543a48"
+  secondaryColor: "#425047"
+  successColor: "#a7c080"
+  dangerColor: "#e67e80"
+  textColor: "#d3c6aa"
   workspaceColors:
-    - "#d79921"
-    - "#d65d0e"
+    - "#a7c080"
+    - "#83c092"
   specialWorkspaceColors:
-    - "#b16286"
-    - "#689d6a"
+    - "#e69875"
+    - "#dbbc7f"
