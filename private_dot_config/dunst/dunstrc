@@ -8,26 +8,26 @@
 	scale = 0
 	notification_limit = 10
 	gap_size = 8
-    separator_color = "#585858"
+    separator_color = "#2d353b"
     corner_radius = 8
 
 [frame]
     width = 1
 
 [urgency_low]
-    background = "#fbf1c7"
-    foreground = "#3c3836"
-    frame_color = "#79740e"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
+    frame_color = "#d3c6aa"
     timeout = 5
 
 [urgency_normal]
-    background = "#fbf1c7"
-    foreground = "#3c3836"
-    frame_color = "#076678"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
+    frame_color = "#83c092"
     timeout = 20
 
 [urgency_critical]
-    background = "#fbf1c7"
-    foreground = "#3c3836"
-    frame_color = "#9d0006"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
+    frame_color = "#e67e80"
     timeout = 0
