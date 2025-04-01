@@ -7,6 +7,7 @@ modules:
   left:
     - AppLauncher
     - Clipboard
+    - Tray
     - Workspaces
   center:
     - WindowTitle
@@ -26,6 +27,6 @@ appearance:
   specialWorkspaceColors:
     - "#e69875"
     - "#dbbc7f"
-# mediaPlayer:
-#   maxTitleLength: 10
+mediaPlayer:
+  maxTitleLength: 60
 # logLevel: "INFO"
