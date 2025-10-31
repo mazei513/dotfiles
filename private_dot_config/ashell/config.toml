@@ -1,0 +1,34 @@
+outputs = "All"
+app_launcher_cmd = "fuzzel" 
+clipboard_cmd = "kitty --app-id clipse clipse"
+
+[workspaces]
+enable_workspace_filling = true
+max_workspaces = 4
+
+[modules]
+left = ["AppLauncher", "Clipboard", "Tray", "Workspaces", "SystemInfo" ]
+center = ["WindowTitle"]
+right = ["MediaPlayer", ["Clock", "Settings"]]
+
+[system_info]
+indicators = [ "Cpu", "Memory", "DownloadSpeed", "UploadSpeed" ]
+
+[appearance]
+font_name = "Iosevka"
+background_color = "#2d353b"
+primary_color = "#543a48"
+secondary_color = "#425047"
+success_color = "#a7c080"
+danger_color = "#e67e80"
+text_color = "#d3c6aa"
+workspace_colors = ["#a7c080", "#83c092"]
+special_workspace_colors = ["#e69875", "#dbbc7f"]
+
+[media_player]
+max_title_length = 60
+
+[settings]
+bluetooth_more_cmd = "blueman-manager"
+remove_airplane_btn = true
+remove_idle_btn = true
